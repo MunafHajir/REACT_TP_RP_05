@@ -4,12 +4,10 @@ function Counter() {
     // var counter = 0;
 
     var [counter, setCounter] = useState(0);
-
     function increment() {
         
         counter++
         setCounter(counter);
-        console.log({useState})
     }
 
     return (
