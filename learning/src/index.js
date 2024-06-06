@@ -1,16 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import HelloWorld from './HelloWorld';
+import Login from './Login';
+import Counter from './Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-        <HelloWorld />
-        <HelloWorld />
-        <HelloWorld />
-        <HelloWorld />
-        <HelloWorld />
-
-        {/* <HelloWorld></HelloWorld> */}
+        <Counter />
     </div>
 );
